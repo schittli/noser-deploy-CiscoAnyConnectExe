@@ -6,3 +6,8 @@ Angepasstes Setup der Cisco AnyConnect Module für die Nosergruppe:
 - Nach der Installation wird das Setup.exe gelöscht
 
 
+# Automatisierte Installation per Kommandozeile
+
+Siehe:
+https://github.com/schittli/PowerShell-OpenSource/blob/main/Functions/Setup-CiscoAnyConnect/ReadMe.md
+
