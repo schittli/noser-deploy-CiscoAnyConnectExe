@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FAProfile xsi:noNamespaceSchemaLocation="FAProfile.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FAConfiguration>
+	<Install>
+	<WindowsConnectorLocation>https://console.eu.amp.cisco.com/install_packages/b2df5951-7e4a-4f12-969d-3688e599de54/download?product=WindowsProduct</WindowsConnectorLocation>
+	<MacConnectorLocation>https://console.eu.amp.cisco.com/install_packages/74a15b26-d553-45d4-b28c-0753d4feec8b/download?product=MacProduct</MacConnectorLocation>
+	<StartMenu>true</StartMenu>
+	<DesktopIcon>true</DesktopIcon>
+	<ContextIcon>true</ContextIcon>
+	</Install>
+	</FAConfiguration>
+</FAProfile>

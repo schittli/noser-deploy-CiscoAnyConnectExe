@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xmlns='http://www.cisco.com/nac/agent/config-1.0'
+	xsi:schemaLocation='http://www.cisco.com/nac/agent/config-1.0 ISEPostureCFG.xsd'>
+	<configName>ISEPostureCFG.xml</configName>
+	<NacAnyConnectDrpDown>AnyConnectAgent</NacAnyConnectDrpDown>
+	<BackOffTimerLimit>30</BackOffTimerLimit>
+	<LogTrace>0</LogTrace>
+	<RetransmissionLimit>4</RetransmissionLimit>
+	<PingMaxTimeout>1</PingMaxTimeout>
+	<RetransmissionDelay>60</RetransmissionDelay>
+	<StealthMode>0</StealthMode>
+	<EnableNonRedirectionFlow>0</EnableNonRedirectionFlow>
+	<StateSyncProbeList>noschbrnpsn04.ise.nosergroup.com,noschbrnpsn03.ise.nosergroup.com</StateSyncProbeList>
+	<ServerNameRules>*.ise.nosergroup.com</ServerNameRules>
+	<OperateOnNonDot1XWireless>0</OperateOnNonDot1XWireless>
+	<RemediationTimer>60</RemediationTimer>
+	<DhcpRenewDelay>1</DhcpRenewDelay>
+	<CallHomeList>noschbrnpsn03.ise.nosergroup.com:8443,noschbrnpsn04.ise.nosergroup.com:8443</CallHomeList>
+	<LogFileSize>10</LogFileSize>
+	<PRARetransmissionTime>120</PRARetransmissionTime>
+	<EnableAgentIpRefresh>1</EnableAgentIpRefresh>
+	<NetworkTransitionDelay>3</NetworkTransitionDelay>
+	<DartCount>3</DartCount>
+	<PingArp>2</PingArp>
+	<DhcpReleaseDelay>4</DhcpReleaseDelay>
+	<StealthWithNotification>0</StealthWithNotification>
+	<SignatureCheck>0</SignatureCheck>
+	<DiscoveryHost>byod.ise.nosergroup.com</DiscoveryHost>
+	<StateSyncProbeInterval>0</StateSyncProbeInterval>
+	<EnableRescanButton>1</EnableRescanButton>
+	<VlanDetectInterval>0</VlanDetectInterval>
+	<DisableUAC>0</DisableUAC>
+	<PeriodicProbing>3</PeriodicProbing>
+</cfg>

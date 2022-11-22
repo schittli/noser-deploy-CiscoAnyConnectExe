@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Settings>
+  <General>
+    <ExtractMode>Temp</ExtractMode>
+    <HideProgress>True</HideProgress>
+    <ProgressDisableCancel>True</ProgressDisableCancel>
+    <SelfDelete>True</SelfDelete>
+    <CompressStub>True</CompressStub>
+    <XPStyles>False</XPStyles>
+    <HideTitleIcon>False</HideTitleIcon>
+    <PromptShowSFXIcon>False</PromptShowSFXIcon>
+    <Overwrite>All</Overwrite>
+    <MessageBegin Show="True">Cisco AnyConnect installieren?</MessageBegin>
+    <MessageCancel Show="False">Are you sure you want to cancel?</MessageCancel>
+    <MessageFinish Show="False">Files were successfully extracted</MessageFinish>
+    <TitleText>Cisco AnyConnect</TitleText>
+    <ExtractPathText>Select extraction path</ExtractPathText>
+    <ExtractCancelText>Abort</ExtractCancelText>
+    <ExtractDialogText />
+    <ExtractTitleText>Extracting</ExtractTitleText>
+    <ExtractShowIcon>False</ExtractShowIcon>
+    <ProgressPercent>-1</ProgressPercent>
+    <ProgressShowIcon>False</ProgressShowIcon>
+    <Icon />
+  </General>
+  <Tasks>
+    <Item Enabled="True">RunProgram="\"%%T\\anyconnect-win-4.10.05111-predeploy-k9\\Setup.exe\""</Item>
+  </Tasks>
+  <VersionString>
+    <Item Name="Comments" Value="" Enabled="True" />
+    <Item Name="CompanyName" Value="Akros AG" Enabled="True" />
+    <Item Name="FileDescription" Value="anyconnect-win-4.10.05111-predeploy-k9" Enabled="True" />
+    <Item Name="FileVersion" Value="4, 10, 05111, 0" Enabled="True" />
+    <Item Name="InternalName" Value="7zSfxNew" Enabled="True" />
+    <Item Name="LegalCopyright" Value="Cisco" Enabled="True" />
+    <Item Name="LegalTrademarks" Value="" Enabled="True" />
+    <Item Name="OriginalFilename" Value="anyconnect-win-4.10.05111-predeploy-k9.exe" Enabled="True" />
+    <Item Name="ProductName" Value="Cisco AnyConnect Predeploy" Enabled="True" />
+    <Item Name="FileVersion" Value="4, 10, 05111, 0" Enabled="True" />
+    <Item Name="SpecialBuild" Value="" Enabled="True" />
+  </VersionString>
+</Settings>

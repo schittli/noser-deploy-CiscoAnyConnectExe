@@ -1,0 +1,50 @@
+
+Für 
+	anyconnect-win-4.10.05111-predeploy-k9
+
+ein SFX exe erzeugen, damit die User Cisco AnyConnect mit 2 Clicks installieren können.
+
+
+221101, tom
+
+
+Benötigte Tools
+	7Zip
+	7-ZIP SFX Maker
+		https://sourceforge.net/projects/sfx-maker/
+		
+		
+Vorgehen
+	Entpacken
+		Src
+			anyconnect-win-4.10.05111-predeploy-k9.zip
+		Ziel
+			.\anyconnect-win-4.10.05111-predeploy-k9
+	
+	Patchen, damit die Standard-Komponentenwahl bereits stimmt
+		Siehe 
+			.\anyconnect-win-4.10.05111-predeploy-k9\setup-Nosergruppe.hta
+			.\anyconnect-win-4.10.05111-predeploy-k9\setup-Original.hta
+			
+		Während der Installation wird dann diese Datei benötigt:
+			.\anyconnect-win-4.10.05111-predeploy-k9\setup.hta
+			
+	7zip erzeugen
+		.\anyconnect-win-4.10.05111-predeploy-k9
+		
+		> anyconnect-win-4.10.05111-predeploy-k9.7z
+
+	SFX erzeugen
+		Starten
+			7-ZIP SFX Maker
+		
+		Config laden
+			.\Config-7zip-SFX.xml
+			
+		In das Tab "Files" hinzufügen:
+			anyconnect-win-4.10.05111-predeploy-k9.7z
+			
+		Unten rechts anklicken
+			Make SFX
+
+
