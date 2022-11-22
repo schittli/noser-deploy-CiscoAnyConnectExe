@@ -8,9 +8,7 @@ Angepasstes Setup der Cisco AnyConnect Module für die Nosergruppe:
 
 ### 👉 Variante: Automatisierte Installation per Kommandozeile
 
-Siehe:
-
-[https://github.com/schittli/PowerShell-OpenSource/Functions/Setup-CiscoAnyConnect
+Siehe: [https://github.com/schittli/PowerShell-OpenSource/Functions/Setup-CiscoAnyConnect
 ](https://github.com/schittli/PowerShell-OpenSource/tree/main/Functions/Setup-CiscoAnyConnect)
 
 
